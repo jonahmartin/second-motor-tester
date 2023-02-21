@@ -1,0 +1,10 @@
+input.onButtonPressed(Button.A, function () {
+    motion.driveStraight(50)
+    basic.pause(2000)
+    motion.turnLeft(50)
+    basic.pause(2000)
+    motion.turnRight(50)
+    basic.pause(2000)
+    motion.stop()
+    basic.pause(2000)
+})
